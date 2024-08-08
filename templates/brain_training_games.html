@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brain Training Games - CogniVerse</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="toolbar">
+        <button onclick="location.href='/'">Home</button>
+        <button onclick="location.href='/more-info'">More Info</button>
+        <button onclick="location.href='/about-us'">About Us</button>
+    </div>
+    <div class="container">
+        <h1>Brain Training Games</h1>
+        <div class="games">
+            <a href="https://www.sudoku.com" target="_blank" class="game-button">Sudoku</a>
+            <a href="https://www.boatloadpuzzles.com" target="_blank" class="game-button">Crosswords</a>
+        </div>
+    </div>
+</body>
+</html>

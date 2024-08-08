@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - CogniVerse</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="toolbar">
+        <button onclick="location.href='/'">Home</button>
+        <button onclick="location.href='/more-info'">More Info</button>
+        <button onclick="location.href='/brain-training-games'">Brain Training Games</button>
+    </div>
+    <div class="container">
+        <h1>About Us</h1>
+        <div class="about-content">
+            <img src="{{ url_for('static', filename='IMG-3249') }}" alt="Faith Warner" class="profile-pic">
+            <p>Hi, I'm Faith Warner. I created this website as part of my Gold Award project to aid in cognitive learning for dementia patients and youth. With this website, I hope to inspire others to go into the field of technology and support cognitive learning using brain training exercises and informative content.</p>
+        </div>
+    </div>
+</body>
+</html>
